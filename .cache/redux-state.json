@@ -1,0 +1,4690 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/thirafiwian/Documents/anot2/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/thirafiwian/Documents/anot2/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9479ca76896200454d8851ae74a59622",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6636513de81eaf6975841ecee759a309",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3b88945d81647ff48a5a17b91674aae2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c9c959c7c1ab1d1b152f6559c790d703",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8642f37cbc32ba527b92151aaa706f7a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bc8d6617b47b0517a0b22ba89ba7dae7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f0fce773e9cbad2afbbd656fcad27cac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f71327cd694b6f9cf044bde376a0a61c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">=2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "63501b65e05cb45d00bfeafe622fbc12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5ff4facfc1906a1461edfdece3fc8401",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "30bb6893082f445a18551ba6e8cc904c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "54744d42edf313ed6330f971952d5a0a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "51aa9449-8060-5d45-9ec4-84f6dd07e26a": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-robots-txt",
+      "id": "51aa9449-8060-5d45-9ec4-84f6dd07e26a",
+      "name": "gatsby-plugin-robots-txt",
+      "version": "1.4.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-robots-txt",
+      "packageJson": {
+        "name": "gatsby-plugin-robots-txt",
+        "description": "Gatsby plugin that automatically creates robots.txt for your site",
+        "version": "1.4.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Marat Dreizin",
+          "email": "marat.dreizin@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.3.1"
+          },
+          {
+            "name": "generate-robotstxt",
+            "version": "^6.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.2.3"
+          },
+          {
+            "name": "@babel/plugin-proposal-object-rest-spread",
+            "version": "^7.3.1"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.3.1"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.12.1"
+          },
+          {
+            "name": "eslint-plugin-babel",
+            "version": "^5.3.0"
+          },
+          {
+            "name": "eslint-plugin-markdown",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "jest",
+            "version": "^24.0.0"
+          },
+          {
+            "name": "memory-fs",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.1"
+          },
+          {
+            "name": "semantic-release",
+            "version": "^15.13.3"
+          },
+          {
+            "name": "travis-deploy-once",
+            "version": "^5.0.11"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b778dafdb51643ca9a3a1efe4f88068b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2f51dda0-3dcb-5bc1-8b8a-b2ad7aa4ce86": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-manifest",
+      "id": "2f51dda0-3dcb-5bc1-8b8a-b2ad7aa4ce86",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "ThirafiWian",
+        "short_name": "ThirafiWian",
+        "start_url": "/",
+        "background_color": "#020c1b",
+        "theme_color": "#0a192f",
+        "display": "minimal-ui",
+        "icon": "src/images/logo.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cbf2ffab047761b6a6c2aebd10721f63",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "40e408e3118b7ab1d0d3ee7a56604091",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "51dcb98b-2172-59f0-a205-afda393c8e7b": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-source-filesystem",
+      "id": "51dcb98b-2172-59f0-a205-afda393c8e7b",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "content",
+        "path": "/home/thirafiwian/Documents/anot2/src/content/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f0a0ad9395447f88562ea930825f38e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bc2930a4-c8ce-5316-b2c2-0efc6ff6b972": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-transformer-remark",
+      "id": "bc2930a4-c8ce-5316-b2c2-0efc6ff6b972",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.5",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-external-links",
+            "id": "5bee27b9-6073-5559-9b0f-cfd309340985",
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "target": "_blank",
+              "rel": "nofollow noopener noreferrer"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-external-links"
+          },
+          {
+            "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-images",
+            "id": "be7f488d-36c7-5112-989f-20c053bcd1ae",
+            "name": "gatsby-remark-images",
+            "version": "3.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 1100,
+              "quality": 90,
+              "linkImagesToOriginal": true,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ceaa2523a09e159b2a18be1cea6d9c89",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5bee27b9-6073-5559-9b0f-cfd309340985": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-external-links",
+      "id": "5bee27b9-6073-5559-9b0f-cfd309340985",
+      "name": "gatsby-remark-external-links",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "target": "_blank",
+        "rel": "nofollow noopener noreferrer"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-external-links",
+      "packageJson": {
+        "name": "gatsby-remark-external-links",
+        "description": "Automatically adds the target and rel attributes to external links in markdown.",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Jimmy Longley",
+          "email": "jimmylongley@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8651446d1e71059e7aaabe2b4f480d0b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "be7f488d-36c7-5112-989f-20c053bcd1ae": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-images",
+      "id": "be7f488d-36c7-5112-989f-20c053bcd1ae",
+      "name": "gatsby-remark-images",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 1100,
+        "quality": 90,
+        "linkImagesToOriginal": true,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "query-string",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5c2e2df4f3938fcf8bbcd34e6496e526",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8ddb6711-ef16-5c05-9740-af727d05b0a0": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-google-analytics",
+      "id": "8ddb6711-ef16-5c05-9740-af727d05b0a0",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-45666519-2"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "19613dbf18b6e71db981649ec3c58012",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/thirafiwian/Documents/anot2",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "20ebc9ed297b05b1a614d068121e4d30",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2",
+      "packageJson": {
+        "name": "v4",
+        "description": "Personal Website V4",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "animejs",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-robots-txt",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-anchor-link-smooth-scroll",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-transition-group",
+            "version": "^2.5.3"
+          },
+          {
+            "name": "scrollreveal",
+            "version": "^4.0.5"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@upstatement/eslint-config",
+            "version": "0.4.0"
+          },
+          {
+            "name": "@upstatement/prettier-config",
+            "version": "^0.3.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.14.1"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.2.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.4"
+          },
+          {
+            "name": "husky",
+            "version": "^1.3.1"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^8.1.4"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          },
+          {
+            "name": "pretty-quick",
+            "version": "^1.10.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9a0e44171acb44e99ca2489c5e8f2006",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e01465c6-5b38-52db-85a7-30e10b849fa3": {
+      "resolve": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-page-creator",
+      "id": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/thirafiwian/Documents/anot2/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/thirafiwian/Documents/anot2/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "da866b2e673c847e8eab292e9d61ee50",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Thirafi Wian | Software Engineer",
+        "siteUrl": "https://brittanychiang.com",
+        "description": "Thirafi Wian is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications."
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-12T09:40:28.614Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4cdc003ff64aa9cb9d937d2b751aeedc",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a962989b-813e-52b5-9567-5916e135bd6b": {
+      "id": "a962989b-813e-52b5-9567-5916e135bd6b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5a47e22fccf3511650cfc4c7321a2bad",
+        "type": "Directory",
+        "description": "Directory \"src/content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.953Z",
+      "accessTime": "2019-04-12T04:32:17.002Z",
+      "changeTime": "2019-04-12T04:20:05.356Z",
+      "birthTime": "2019-04-12T04:20:05.356Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 8,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410388,
+      "blocks": 8,
+      "atimeMs": 1555043537002.1462,
+      "mtimeMs": 1552828674952.869,
+      "ctimeMs": 1555042805356.4368,
+      "birthtimeMs": 1555042805356.4368,
+      "atime": "2019-04-12T04:32:17.002Z",
+      "mtime": "2019-03-17T13:17:54.953Z",
+      "ctime": "2019-04-12T04:20:05.356Z",
+      "birthtime": "2019-04-12T04:20:05.356Z"
+    },
+    "88dc5082-4202-56f9-b2a6-a34cf5761831": {
+      "id": "88dc5082-4202-56f9-b2a6-a34cf5761831",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d77ca1c734f3c2843e1b62f640891c77",
+        "type": "Directory",
+        "description": "Directory \"src/content/contact\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/contact",
+      "relativePath": "contact",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.905Z",
+      "accessTime": "2019-04-12T04:32:17.006Z",
+      "changeTime": "2019-04-12T04:20:05.032Z",
+      "birthTime": "2019-04-12T04:20:05.032Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "contact",
+      "ext": "",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410392,
+      "blocks": 8,
+      "atimeMs": 1555043537006.1465,
+      "mtimeMs": 1552828674904.996,
+      "ctimeMs": 1555042805032.497,
+      "birthtimeMs": 1555042805032.497,
+      "atime": "2019-04-12T04:32:17.006Z",
+      "mtime": "2019-03-17T13:17:54.905Z",
+      "ctime": "2019-04-12T04:20:05.032Z",
+      "birthtime": "2019-04-12T04:20:05.032Z"
+    },
+    "7c1eff9b-2791-553b-b9a1-86f6a9c10395": {
+      "id": "7c1eff9b-2791-553b-b9a1-86f6a9c10395",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ded612c07f1c996a5a28b76f07c4e1c3",
+        "type": "Directory",
+        "description": "Directory \"src/content/about\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/about",
+      "relativePath": "about",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-04-12T09:22:32.467Z",
+      "accessTime": "2019-04-12T09:22:32.471Z",
+      "changeTime": "2019-04-12T09:22:32.467Z",
+      "birthTime": "2019-04-12T09:22:32.467Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "about",
+      "ext": "",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410389,
+      "blocks": 8,
+      "atimeMs": 1555060952471.1938,
+      "mtimeMs": 1555060952467.1936,
+      "ctimeMs": 1555060952467.1936,
+      "birthtimeMs": 1555060952467.1936,
+      "atime": "2019-04-12T09:22:32.471Z",
+      "mtime": "2019-04-12T09:22:32.467Z",
+      "ctime": "2019-04-12T09:22:32.467Z",
+      "birthtime": "2019-04-12T09:22:32.467Z"
+    },
+    "a0bb0e59-61b9-503e-ba93-1d50742c1632": {
+      "id": "a0bb0e59-61b9-503e-ba93-1d50742c1632",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0473cbf75e98f6df23286b4894a67e8d",
+        "type": "Directory",
+        "description": "Directory \"src/content/featured\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured",
+      "relativePath": "featured",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.943Z",
+      "accessTime": "2019-04-12T04:32:17.006Z",
+      "changeTime": "2019-04-12T04:20:05.280Z",
+      "birthTime": "2019-04-12T04:20:05.280Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "featured",
+      "ext": "",
+      "name": "featured",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 5,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410394,
+      "blocks": 8,
+      "atimeMs": 1555043537006.1465,
+      "mtimeMs": 1552828674942.896,
+      "ctimeMs": 1555042805280.451,
+      "birthtimeMs": 1555042805280.451,
+      "atime": "2019-04-12T04:32:17.006Z",
+      "mtime": "2019-03-17T13:17:54.943Z",
+      "ctime": "2019-04-12T04:20:05.280Z",
+      "birthtime": "2019-04-12T04:20:05.280Z"
+    },
+    "4ff8f9ac-1244-5f27-ad13-cd4d8fe3db46": {
+      "id": "4ff8f9ac-1244-5f27-ad13-cd4d8fe3db46",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fcfeb0e766d8d1633385a40f08386c2e",
+        "type": "Directory",
+        "description": "Directory \"src/content/hero\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/hero",
+      "relativePath": "hero",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.946Z",
+      "accessTime": "2019-04-12T04:32:17.006Z",
+      "changeTime": "2019-04-12T04:20:05.284Z",
+      "birthTime": "2019-04-12T04:20:05.284Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "hero",
+      "ext": "",
+      "name": "hero",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410405,
+      "blocks": 8,
+      "atimeMs": 1555043537006.1465,
+      "mtimeMs": 1552828674945.889,
+      "ctimeMs": 1555042805284.45,
+      "birthtimeMs": 1555042805284.45,
+      "atime": "2019-04-12T04:32:17.006Z",
+      "mtime": "2019-03-17T13:17:54.946Z",
+      "ctime": "2019-04-12T04:20:05.284Z",
+      "birthtime": "2019-04-12T04:20:05.284Z"
+    },
+    "bdfb93bd-65ae-5f22-a3f4-3eebc2c1b34d": {
+      "id": "bdfb93bd-65ae-5f22-a3f4-3eebc2c1b34d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0d793951a817b220e431907c2eb1a5b7",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "relativePath": "projects",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-20T08:27:11.345Z",
+      "accessTime": "2019-04-12T04:32:17.006Z",
+      "changeTime": "2019-04-12T04:20:05.356Z",
+      "birthTime": "2019-04-12T04:20:05.356Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "projects",
+      "ext": "",
+      "name": "projects",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 8,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410420,
+      "blocks": 8,
+      "atimeMs": 1555043537006.1465,
+      "mtimeMs": 1553070431345.43,
+      "ctimeMs": 1555042805356.4368,
+      "birthtimeMs": 1555042805356.4368,
+      "atime": "2019-04-12T04:32:17.006Z",
+      "mtime": "2019-03-20T08:27:11.345Z",
+      "ctime": "2019-04-12T04:20:05.356Z",
+      "birthtime": "2019-04-12T04:20:05.356Z"
+    },
+    "701f76ba-3785-549c-931c-4bdd5310d008": {
+      "id": "701f76ba-3785-549c-931c-4bdd5310d008",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e31c55e23bc4232889e34fddd9cc033e",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "relativePath": "jobs",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.952Z",
+      "accessTime": "2019-04-12T04:32:17.006Z",
+      "changeTime": "2019-04-12T04:20:05.312Z",
+      "birthTime": "2019-04-12T04:20:05.312Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content",
+      "base": "jobs",
+      "ext": "",
+      "name": "jobs",
+      "relativeDirectory": "",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 8,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410407,
+      "blocks": 8,
+      "atimeMs": 1555043537006.1465,
+      "mtimeMs": 1552828674951.893,
+      "ctimeMs": 1555042805312.4448,
+      "birthtimeMs": 1555042805312.4448,
+      "atime": "2019-04-12T04:32:17.006Z",
+      "mtime": "2019-03-17T13:17:54.952Z",
+      "ctime": "2019-04-12T04:20:05.312Z",
+      "birthtime": "2019-04-12T04:20:05.312Z"
+    },
+    "25ab9c08-bbe3-528e-848d-047c6f33fd65": {
+      "id": "25ab9c08-bbe3-528e-848d-047c6f33fd65",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fd17c6c1f08d110ac44f6d182a0f33ef",
+        "type": "Directory",
+        "description": "Directory \"src/content/featured/HalcyonTheme\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme",
+      "relativePath": "featured/HalcyonTheme",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.920Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.184Z",
+      "birthTime": "2019-04-12T04:20:05.184Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured",
+      "base": "HalcyonTheme",
+      "ext": "",
+      "name": "HalcyonTheme",
+      "relativeDirectory": "featured",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410395,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674919.956,
+      "ctimeMs": 1555042805184.4688,
+      "birthtimeMs": 1555042805184.4688,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.920Z",
+      "ctime": "2019-04-12T04:20:05.184Z",
+      "birthtime": "2019-04-12T04:20:05.184Z"
+    },
+    "0c0c1ed7-581f-5a87-8ab6-6a0b6efc1ab3": {
+      "id": "0c0c1ed7-581f-5a87-8ab6-6a0b6efc1ab3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1e5eb246c6198bd06cbf89098767e601",
+        "type": "Directory",
+        "description": "Directory \"src/content/featured/PinSimple\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple",
+      "relativePath": "featured/PinSimple",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.941Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.256Z",
+      "birthTime": "2019-04-12T04:20:05.256Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured",
+      "base": "PinSimple",
+      "ext": "",
+      "name": "PinSimple",
+      "relativeDirectory": "featured",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410399,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674940.938,
+      "ctimeMs": 1555042805256.4553,
+      "birthtimeMs": 1555042805256.4553,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.941Z",
+      "ctime": "2019-04-12T04:20:05.256Z",
+      "birthtime": "2019-04-12T04:20:05.256Z"
+    },
+    "0995e97e-c40c-5426-8501-23c1816f0fed": {
+      "id": "0995e97e-c40c-5426-8501-23c1816f0fed",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "eda15215da1885f080790212e1682e57",
+        "type": "Directory",
+        "description": "Directory \"src/content/featured/SpotifyProfile\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile",
+      "relativePath": "featured/SpotifyProfile",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.945Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.276Z",
+      "birthTime": "2019-04-12T04:20:05.276Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured",
+      "base": "SpotifyProfile",
+      "ext": "",
+      "name": "SpotifyProfile",
+      "relativeDirectory": "featured",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410402,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674944.93,
+      "ctimeMs": 1555042805276.4517,
+      "birthtimeMs": 1555042805276.4517,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.945Z",
+      "ctime": "2019-04-12T04:20:05.276Z",
+      "birthtime": "2019-04-12T04:20:05.276Z"
+    },
+    "741a6264-d7d8-50b6-916a-4b39b81fe56b": {
+      "id": "741a6264-d7d8-50b6-916a-4b39b81fe56b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3f682fdddd598924df338fd4a1856dd2",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Apple\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Apple",
+      "relativePath": "jobs/Apple",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.947Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.292Z",
+      "birthTime": "2019-04-12T04:20:05.292Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Apple",
+      "ext": "",
+      "name": "Apple",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410408,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674946.887,
+      "ctimeMs": 1555042805292.4485,
+      "birthtimeMs": 1555042805292.4485,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.947Z",
+      "ctime": "2019-04-12T04:20:05.292Z",
+      "birthtime": "2019-04-12T04:20:05.292Z"
+    },
+    "4b017699-0275-5863-8c88-80738e8a086f": {
+      "id": "4b017699-0275-5863-8c88-80738e8a086f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d2b08e877d71687b309b458ef1ef7115",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Mullen\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Mullen",
+      "relativePath": "jobs/Mullen",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.947Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.296Z",
+      "birthTime": "2019-04-12T04:20:05.296Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Mullen",
+      "ext": "",
+      "name": "Mullen",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410410,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674946.887,
+      "ctimeMs": 1555042805296.4478,
+      "birthtimeMs": 1555042805296.4478,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.947Z",
+      "ctime": "2019-04-12T04:20:05.296Z",
+      "birthtime": "2019-04-12T04:20:05.296Z"
+    },
+    "93d01632-5da5-59b6-b54b-f1c2cdb0bf0e": {
+      "id": "93d01632-5da5-59b6-b54b-f1c2cdb0bf0e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0616080ab0ad3d39f91dec31b4c4f418",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Scout2017\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2017",
+      "relativePath": "jobs/Scout2017",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.948Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.300Z",
+      "birthTime": "2019-04-12T04:20:05.300Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Scout2017",
+      "ext": "",
+      "name": "Scout2017",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410412,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674947.882,
+      "ctimeMs": 1555042805300.447,
+      "birthtimeMs": 1555042805300.447,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.948Z",
+      "ctime": "2019-04-12T04:20:05.300Z",
+      "birthtime": "2019-04-12T04:20:05.300Z"
+    },
+    "04703177-f901-578c-ae0e-01dd1c9c9384": {
+      "id": "04703177-f901-578c-ae0e-01dd1c9c9384",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "645ac669f8ec346dcaef1048f8686b4b",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Starry\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Starry",
+      "relativePath": "jobs/Starry",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.949Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.304Z",
+      "birthTime": "2019-04-12T04:20:05.304Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Starry",
+      "ext": "",
+      "name": "Starry",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410416,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674948.878,
+      "ctimeMs": 1555042805304.4463,
+      "birthtimeMs": 1555042805304.4463,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.949Z",
+      "ctime": "2019-04-12T04:20:05.304Z",
+      "birthtime": "2019-04-12T04:20:05.304Z"
+    },
+    "33f16fe7-ad82-5745-b89b-d4168fe76df1": {
+      "id": "33f16fe7-ad82-5745-b89b-d4168fe76df1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e82b81f4f2f2603449ecdb219bd0963a",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Scout2018\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2018",
+      "relativePath": "jobs/Scout2018",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.948Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.304Z",
+      "birthTime": "2019-04-12T04:20:05.304Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Scout2018",
+      "ext": "",
+      "name": "Scout2018",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410414,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674947.882,
+      "ctimeMs": 1555042805304.4463,
+      "birthtimeMs": 1555042805304.4463,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.948Z",
+      "ctime": "2019-04-12T04:20:05.304Z",
+      "birthtime": "2019-04-12T04:20:05.304Z"
+    },
+    "8f1b2169-b087-5674-bdd8-df0e565cdc0e": {
+      "id": "8f1b2169-b087-5674-bdd8-df0e565cdc0e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b4f1f4b961346fb7acc466cf826d18bc",
+        "type": "Directory",
+        "description": "Directory \"src/content/jobs/Upstatement\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Upstatement",
+      "relativePath": "jobs/Upstatement",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.953Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.308Z",
+      "birthTime": "2019-04-12T04:20:05.308Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs",
+      "base": "Upstatement",
+      "ext": "",
+      "name": "Upstatement",
+      "relativeDirectory": "jobs",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410418,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674952.869,
+      "ctimeMs": 1555042805308.4456,
+      "birthtimeMs": 1555042805308.4456,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.953Z",
+      "ctime": "2019-04-12T04:20:05.308Z",
+      "birthtime": "2019-04-12T04:20:05.308Z"
+    },
+    "4c1e85c1-a2d9-5851-9ab4-4aab279d0b62": {
+      "id": "4c1e85c1-a2d9-5851-9ab4-4aab279d0b62",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7d50b5b6cc78386263f8d06112860784",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/AMFM\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AMFM",
+      "relativePath": "projects/AMFM",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.954Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.316Z",
+      "birthTime": "2019-04-12T04:20:05.316Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "AMFM",
+      "ext": "",
+      "name": "AMFM",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410421,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674953.866,
+      "ctimeMs": 1555042805316.444,
+      "birthtimeMs": 1555042805316.444,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.954Z",
+      "ctime": "2019-04-12T04:20:05.316Z",
+      "birthtime": "2019-04-12T04:20:05.316Z"
+    },
+    "dfdbd833-71ad-5f80-be2f-9614505d093a": {
+      "id": "dfdbd833-71ad-5f80-be2f-9614505d093a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ae83a4a0cfb4e614d4292e8fc3068139",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/AppleMusicEmbedPlayer\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AppleMusicEmbedPlayer",
+      "relativePath": "projects/AppleMusicEmbedPlayer",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.955Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.320Z",
+      "birthTime": "2019-04-12T04:20:05.320Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "AppleMusicEmbedPlayer",
+      "ext": "",
+      "name": "AppleMusicEmbedPlayer",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410423,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674954.862,
+      "ctimeMs": 1555042805320.4434,
+      "birthtimeMs": 1555042805320.4434,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.955Z",
+      "ctime": "2019-04-12T04:20:05.320Z",
+      "birthtime": "2019-04-12T04:20:05.320Z"
+    },
+    "32d0f6b8-6824-533a-923a-0035f4e9fc89": {
+      "id": "32d0f6b8-6824-533a-923a-0035f4e9fc89",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4208bf050e3ab2c9b86275b68c7ad15e",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/Blistabloc\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc",
+      "relativePath": "projects/Blistabloc",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.959Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.344Z",
+      "birthTime": "2019-04-12T04:20:05.344Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "Blistabloc",
+      "ext": "",
+      "name": "Blistabloc",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410425,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674958.852,
+      "ctimeMs": 1555042805344.439,
+      "birthtimeMs": 1555042805344.439,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.959Z",
+      "ctime": "2019-04-12T04:20:05.344Z",
+      "birthtime": "2019-04-12T04:20:05.344Z"
+    },
+    "e822c6c3-9204-5776-a985-3140c0263bb4": {
+      "id": "e822c6c3-9204-5776-a985-3140c0263bb4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b7cd1ecf24a3bfba5fe163cee7354131",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/CourseSource\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CourseSource",
+      "relativePath": "projects/CourseSource",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.959Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.348Z",
+      "birthTime": "2019-04-12T04:20:05.348Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "CourseSource",
+      "ext": "",
+      "name": "CourseSource",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410428,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674958.852,
+      "ctimeMs": 1555042805348.4382,
+      "birthtimeMs": 1555042805348.4382,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.959Z",
+      "ctime": "2019-04-12T04:20:05.348Z",
+      "birthtime": "2019-04-12T04:20:05.348Z"
+    },
+    "0d1add38-df9b-5bc1-a0fd-f2717b02e969": {
+      "id": "0d1add38-df9b-5bc1-a0fd-f2717b02e969",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d77e0b580298ec5da24057cb55b41768",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/CrowdDJ\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CrowdDJ",
+      "relativePath": "projects/CrowdDJ",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.960Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.352Z",
+      "birthTime": "2019-04-12T04:20:05.352Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "CrowdDJ",
+      "ext": "",
+      "name": "CrowdDJ",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410430,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674959.856,
+      "ctimeMs": 1555042805352.4375,
+      "birthtimeMs": 1555042805352.4375,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.960Z",
+      "ctime": "2019-04-12T04:20:05.352Z",
+      "birthtime": "2019-04-12T04:20:05.352Z"
+    },
+    "d346f63c-baf0-5d5a-98a7-f5e741da73fb": {
+      "id": "d346f63c-baf0-5d5a-98a7-f5e741da73fb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c0d230aa23db28421f114fd503783392",
+        "type": "Directory",
+        "description": "Directory \"src/content/projects/Fontipsums\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Fontipsums",
+      "relativePath": "projects/Fontipsums",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-03-17T13:17:54.961Z",
+      "accessTime": "2019-04-12T04:32:17.014Z",
+      "changeTime": "2019-04-12T04:20:05.356Z",
+      "birthTime": "2019-04-12T04:20:05.356Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects",
+      "base": "Fontipsums",
+      "ext": "",
+      "name": "Fontipsums",
+      "relativeDirectory": "projects",
+      "dev": 2057,
+      "mode": 16895,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410432,
+      "blocks": 8,
+      "atimeMs": 1555043537014.1465,
+      "mtimeMs": 1552828674960.847,
+      "ctimeMs": 1555042805356.4368,
+      "birthtimeMs": 1555042805356.4368,
+      "atime": "2019-04-12T04:32:17.014Z",
+      "mtime": "2019-03-17T13:17:54.961Z",
+      "ctime": "2019-04-12T04:20:05.356Z",
+      "birthtime": "2019-04-12T04:20:05.356Z"
+    },
+    "07cc959a-c072-534a-b3b5-962f725002e2": {
+      "id": "07cc959a-c072-534a-b3b5-962f725002e2",
+      "children": [
+        "e3987d94-ebbb-5974-9b41-938fd343d4dc"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2159dce41a60ee9d830fc6d4d6a5c6dc",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/about/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/about/index.md",
+      "relativePath": "about/index.md",
+      "extension": "md",
+      "size": 451,
+      "prettySize": "451 B",
+      "modifiedTime": "2019-04-12T09:32:42.796Z",
+      "accessTime": "2019-04-12T09:33:46.096Z",
+      "changeTime": "2019-04-12T09:32:42.796Z",
+      "birthTime": "2019-04-12T09:32:42.796Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/about",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "about",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410390,
+      "blocks": 8,
+      "atimeMs": 1555061626096.0427,
+      "mtimeMs": 1555061562796.093,
+      "ctimeMs": 1555061562796.093,
+      "birthtimeMs": 1555061562796.093,
+      "atime": "2019-04-12T09:33:46.096Z",
+      "mtime": "2019-04-12T09:32:42.796Z",
+      "ctime": "2019-04-12T09:32:42.796Z",
+      "birthtime": "2019-04-12T09:32:42.796Z"
+    },
+    "dfaa07d0-c16a-5dc2-9c81-fe6f89766d58": {
+      "id": "dfaa07d0-c16a-5dc2-9c81-fe6f89766d58",
+      "children": [
+        "682cba6c-d6a7-520d-bae5-3fc2cf845bf9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "56c2782946cbb5eba5f2c1e2d668415c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/featured/PinSimple/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple/index.md",
+      "relativePath": "featured/PinSimple/index.md",
+      "extension": "md",
+      "size": 483,
+      "prettySize": "483 B",
+      "modifiedTime": "2019-03-17T13:17:54.921Z",
+      "accessTime": "2019-04-12T04:20:05.184Z",
+      "changeTime": "2019-04-12T04:20:05.184Z",
+      "birthTime": "2019-04-12T04:20:05.184Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "featured/PinSimple",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410400,
+      "blocks": 8,
+      "atimeMs": 1555042805184.468,
+      "mtimeMs": 1552828674920.953,
+      "ctimeMs": 1555042805184.4688,
+      "birthtimeMs": 1555042805184.4688,
+      "atime": "2019-04-12T04:20:05.184Z",
+      "mtime": "2019-03-17T13:17:54.921Z",
+      "ctime": "2019-04-12T04:20:05.184Z",
+      "birthtime": "2019-04-12T04:20:05.184Z"
+    },
+    "425711e5-944c-5c4f-9a1f-dc1a39fef776": {
+      "id": "425711e5-944c-5c4f-9a1f-dc1a39fef776",
+      "children": [
+        "7f6aabce-222d-52e6-b5dd-96594d7a3922"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c0ef9bc9791f7649746dd757f218275f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/hero/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/hero/index.md",
+      "relativePath": "hero/index.md",
+      "extension": "md",
+      "size": 284,
+      "prettySize": "284 B",
+      "modifiedTime": "2019-03-17T15:39:52.008Z",
+      "accessTime": "2019-04-12T04:20:05.280Z",
+      "changeTime": "2019-04-12T04:20:05.280Z",
+      "birthTime": "2019-04-12T04:20:05.280Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/hero",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hero",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410406,
+      "blocks": 8,
+      "atimeMs": 1555042805280.45,
+      "mtimeMs": 1552837192007.982,
+      "ctimeMs": 1555042805280.451,
+      "birthtimeMs": 1555042805280.451,
+      "atime": "2019-04-12T04:20:05.280Z",
+      "mtime": "2019-03-17T15:39:52.008Z",
+      "ctime": "2019-04-12T04:20:05.280Z",
+      "birthtime": "2019-04-12T04:20:05.280Z"
+    },
+    "eb23624f-82e8-583d-94d6-67f34c1b6d28": {
+      "id": "eb23624f-82e8-583d-94d6-67f34c1b6d28",
+      "children": [
+        "f6e04f5c-1f6f-5b57-a1ad-3b166ceb675e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c380864f915a0a74994d45fdf1ca416a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/featured/SpotifyProfile/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile/index.md",
+      "relativePath": "featured/SpotifyProfile/index.md",
+      "extension": "md",
+      "size": 520,
+      "prettySize": "520 B",
+      "modifiedTime": "2019-03-17T13:17:54.946Z",
+      "accessTime": "2019-04-12T04:20:05.276Z",
+      "changeTime": "2019-04-12T04:20:05.276Z",
+      "birthTime": "2019-04-12T04:20:05.276Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "featured/SpotifyProfile",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410404,
+      "blocks": 8,
+      "atimeMs": 1555042805276.451,
+      "mtimeMs": 1552828674945.889,
+      "ctimeMs": 1555042805276.4517,
+      "birthtimeMs": 1555042805276.4517,
+      "atime": "2019-04-12T04:20:05.276Z",
+      "mtime": "2019-03-17T13:17:54.946Z",
+      "ctime": "2019-04-12T04:20:05.276Z",
+      "birthtime": "2019-04-12T04:20:05.276Z"
+    },
+    "eefecd99-7fb6-5aac-9139-969736cc1a54": {
+      "id": "eefecd99-7fb6-5aac-9139-969736cc1a54",
+      "children": [
+        "12423c41-939f-5334-829d-b99279684e0d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "03acabbf2fcdc7965905ceb932359c5f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Apple/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Apple/index.md",
+      "relativePath": "jobs/Apple/index.md",
+      "extension": "md",
+      "size": 666,
+      "prettySize": "666 B",
+      "modifiedTime": "2019-03-17T13:17:54.947Z",
+      "accessTime": "2019-04-12T04:20:05.288Z",
+      "changeTime": "2019-04-12T04:20:05.288Z",
+      "birthTime": "2019-04-12T04:20:05.288Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Apple",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Apple",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410409,
+      "blocks": 8,
+      "atimeMs": 1555042805288.449,
+      "mtimeMs": 1552828674946.887,
+      "ctimeMs": 1555042805288.4492,
+      "birthtimeMs": 1555042805288.4492,
+      "atime": "2019-04-12T04:20:05.288Z",
+      "mtime": "2019-03-17T13:17:54.947Z",
+      "ctime": "2019-04-12T04:20:05.288Z",
+      "birthtime": "2019-04-12T04:20:05.288Z"
+    },
+    "10ead772-4782-5071-bd53-944b492fcae8": {
+      "id": "10ead772-4782-5071-bd53-944b492fcae8",
+      "children": [
+        "8606712f-f8d0-56b5-801d-3b702708cf7d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "71c3e6198e40f5be23ab990d0d4853be",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Mullen/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Mullen/index.md",
+      "relativePath": "jobs/Mullen/index.md",
+      "extension": "md",
+      "size": 513,
+      "prettySize": "513 B",
+      "modifiedTime": "2019-03-17T13:17:54.948Z",
+      "accessTime": "2019-04-12T04:20:05.292Z",
+      "changeTime": "2019-04-12T04:20:05.292Z",
+      "birthTime": "2019-04-12T04:20:05.292Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Mullen",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Mullen",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410411,
+      "blocks": 8,
+      "atimeMs": 1555042805292.448,
+      "mtimeMs": 1552828674947.882,
+      "ctimeMs": 1555042805292.4485,
+      "birthtimeMs": 1555042805292.4485,
+      "atime": "2019-04-12T04:20:05.292Z",
+      "mtime": "2019-03-17T13:17:54.948Z",
+      "ctime": "2019-04-12T04:20:05.292Z",
+      "birthtime": "2019-04-12T04:20:05.292Z"
+    },
+    "bd81a3f1-1639-5147-86fd-eac7b779b06d": {
+      "id": "bd81a3f1-1639-5147-86fd-eac7b779b06d",
+      "children": [
+        "071f6fa0-1597-5072-a2eb-840596083702"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "eb25c31e55142dc4d5f0b3202ea12081",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Scout2017/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2017/index.md",
+      "relativePath": "jobs/Scout2017/index.md",
+      "extension": "md",
+      "size": 510,
+      "prettySize": "510 B",
+      "modifiedTime": "2019-03-17T13:17:54.948Z",
+      "accessTime": "2019-04-12T04:20:05.296Z",
+      "changeTime": "2019-04-12T04:20:05.296Z",
+      "birthTime": "2019-04-12T04:20:05.296Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2017",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Scout2017",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410413,
+      "blocks": 8,
+      "atimeMs": 1555042805296.447,
+      "mtimeMs": 1552828674947.882,
+      "ctimeMs": 1555042805296.4478,
+      "birthtimeMs": 1555042805296.4478,
+      "atime": "2019-04-12T04:20:05.296Z",
+      "mtime": "2019-03-17T13:17:54.948Z",
+      "ctime": "2019-04-12T04:20:05.296Z",
+      "birthtime": "2019-04-12T04:20:05.296Z"
+    },
+    "1eae2e8d-7861-5750-95b6-4a718bc4166d": {
+      "id": "1eae2e8d-7861-5750-95b6-4a718bc4166d",
+      "children": [
+        "1e1e9d9b-5bf5-59ab-ac46-0b66f1cfd227"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "741e9384b0e8f76037b30ce7fdf4e14b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Scout2018/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2018/index.md",
+      "relativePath": "jobs/Scout2018/index.md",
+      "extension": "md",
+      "size": 538,
+      "prettySize": "538 B",
+      "modifiedTime": "2019-03-17T13:17:54.949Z",
+      "accessTime": "2019-04-12T04:20:05.300Z",
+      "changeTime": "2019-04-12T04:20:05.300Z",
+      "birthTime": "2019-04-12T04:20:05.300Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Scout2018",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410415,
+      "blocks": 8,
+      "atimeMs": 1555042805300.447,
+      "mtimeMs": 1552828674948.878,
+      "ctimeMs": 1555042805300.447,
+      "birthtimeMs": 1555042805300.447,
+      "atime": "2019-04-12T04:20:05.300Z",
+      "mtime": "2019-03-17T13:17:54.949Z",
+      "ctime": "2019-04-12T04:20:05.300Z",
+      "birthtime": "2019-04-12T04:20:05.300Z"
+    },
+    "7efe155d-9d56-5397-b2d9-512bc4cab8bb": {
+      "id": "7efe155d-9d56-5397-b2d9-512bc4cab8bb",
+      "children": [
+        "1506f6ba-bfbf-580c-bb70-38b47f649334"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8cadccc3902cf5cf0ab358d18824863f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Starry/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Starry/index.md",
+      "relativePath": "jobs/Starry/index.md",
+      "extension": "md",
+      "size": 622,
+      "prettySize": "622 B",
+      "modifiedTime": "2019-03-17T13:17:54.950Z",
+      "accessTime": "2019-04-12T04:20:05.304Z",
+      "changeTime": "2019-04-12T04:20:05.304Z",
+      "birthTime": "2019-04-12T04:20:05.304Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Starry",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Starry",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410417,
+      "blocks": 8,
+      "atimeMs": 1555042805304.446,
+      "mtimeMs": 1552828674949.885,
+      "ctimeMs": 1555042805304.4463,
+      "birthtimeMs": 1555042805304.4463,
+      "atime": "2019-04-12T04:20:05.304Z",
+      "mtime": "2019-03-17T13:17:54.950Z",
+      "ctime": "2019-04-12T04:20:05.304Z",
+      "birthtime": "2019-04-12T04:20:05.304Z"
+    },
+    "950da5c0-e4db-5877-aa2b-1723934ae8be": {
+      "id": "950da5c0-e4db-5877-aa2b-1723934ae8be",
+      "children": [
+        "a0830f55-029c-5746-934e-efb98c1843ab"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "88bab0d027eab7bd67bd2f94ecc48951",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/jobs/Upstatement/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Upstatement/index.md",
+      "relativePath": "jobs/Upstatement/index.md",
+      "extension": "md",
+      "size": 561,
+      "prettySize": "561 B",
+      "modifiedTime": "2019-03-17T13:17:54.953Z",
+      "accessTime": "2019-04-12T04:20:05.308Z",
+      "changeTime": "2019-04-12T04:20:05.308Z",
+      "birthTime": "2019-04-12T04:20:05.308Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/jobs/Upstatement",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "jobs/Upstatement",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410419,
+      "blocks": 8,
+      "atimeMs": 1555042805308.445,
+      "mtimeMs": 1552828674952.869,
+      "ctimeMs": 1555042805308.4456,
+      "birthtimeMs": 1555042805308.4456,
+      "atime": "2019-04-12T04:20:05.308Z",
+      "mtime": "2019-03-17T13:17:54.953Z",
+      "ctime": "2019-04-12T04:20:05.308Z",
+      "birthtime": "2019-04-12T04:20:05.308Z"
+    },
+    "9d82511a-a701-5d2f-99a2-47f72af2a0ef": {
+      "id": "9d82511a-a701-5d2f-99a2-47f72af2a0ef",
+      "children": [
+        "f71481c2-18a9-5d4e-abb3-4a93e4ce38ee"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "26a5f51fa96af91d30b72d0d788c0af0",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/AMFM/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AMFM/index.md",
+      "relativePath": "projects/AMFM/index.md",
+      "extension": "md",
+      "size": 421,
+      "prettySize": "421 B",
+      "modifiedTime": "2019-03-17T13:17:54.954Z",
+      "accessTime": "2019-04-12T04:20:05.312Z",
+      "changeTime": "2019-04-12T04:20:05.312Z",
+      "birthTime": "2019-04-12T04:20:05.312Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/AMFM",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/AMFM",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410422,
+      "blocks": 8,
+      "atimeMs": 1555042805312.444,
+      "mtimeMs": 1552828674953.866,
+      "ctimeMs": 1555042805312.4448,
+      "birthtimeMs": 1555042805312.4448,
+      "atime": "2019-04-12T04:20:05.312Z",
+      "mtime": "2019-03-17T13:17:54.954Z",
+      "ctime": "2019-04-12T04:20:05.312Z",
+      "birthtime": "2019-04-12T04:20:05.312Z"
+    },
+    "07e0a1cd-ac89-5580-9ce7-430430eff6b4": {
+      "id": "07e0a1cd-ac89-5580-9ce7-430430eff6b4",
+      "children": [
+        "b5f5a4a1-bbdd-560a-8164-8651557548d2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a8c818578417574ddb970360d450c573",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/AppleMusicEmbedPlayer/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AppleMusicEmbedPlayer/index.md",
+      "relativePath": "projects/AppleMusicEmbedPlayer/index.md",
+      "extension": "md",
+      "size": 532,
+      "prettySize": "532 B",
+      "modifiedTime": "2019-03-17T13:17:54.955Z",
+      "accessTime": "2019-04-12T04:20:05.316Z",
+      "changeTime": "2019-04-12T04:20:05.316Z",
+      "birthTime": "2019-04-12T04:20:05.316Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/AppleMusicEmbedPlayer",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/AppleMusicEmbedPlayer",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410424,
+      "blocks": 8,
+      "atimeMs": 1555042805316.444,
+      "mtimeMs": 1552828674954.862,
+      "ctimeMs": 1555042805316.444,
+      "birthtimeMs": 1555042805316.444,
+      "atime": "2019-04-12T04:20:05.316Z",
+      "mtime": "2019-03-17T13:17:54.955Z",
+      "ctime": "2019-04-12T04:20:05.316Z",
+      "birthtime": "2019-04-12T04:20:05.316Z"
+    },
+    "6c29cb06-b254-5cb4-ae04-f6a9f8371021": {
+      "id": "6c29cb06-b254-5cb4-ae04-f6a9f8371021",
+      "children": [
+        "60907695-a645-58fa-8ddb-379a33267bfa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6b6d3d9e4e3202195e900c2c2b99567b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/Blistabloc/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc/index.md",
+      "relativePath": "projects/Blistabloc/index.md",
+      "extension": "md",
+      "size": 376,
+      "prettySize": "376 B",
+      "modifiedTime": "2019-03-17T13:17:54.959Z",
+      "accessTime": "2019-04-12T04:20:05.340Z",
+      "changeTime": "2019-04-12T04:20:05.340Z",
+      "birthTime": "2019-04-12T04:20:05.340Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/Blistabloc",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410427,
+      "blocks": 8,
+      "atimeMs": 1555042805340.439,
+      "mtimeMs": 1552828674958.852,
+      "ctimeMs": 1555042805340.4397,
+      "birthtimeMs": 1555042805340.4397,
+      "atime": "2019-04-12T04:20:05.340Z",
+      "mtime": "2019-03-17T13:17:54.959Z",
+      "ctime": "2019-04-12T04:20:05.340Z",
+      "birthtime": "2019-04-12T04:20:05.340Z"
+    },
+    "58f38d33-a785-56ed-882b-ef4214e940f1": {
+      "id": "58f38d33-a785-56ed-882b-ef4214e940f1",
+      "children": [
+        "b1f8fb8b-b774-55b2-8eab-d247a319c5c6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "09ed2376eae6ff11a96d6948786a0c4e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/CourseSource/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CourseSource/index.md",
+      "relativePath": "projects/CourseSource/index.md",
+      "extension": "md",
+      "size": 431,
+      "prettySize": "431 B",
+      "modifiedTime": "2019-03-17T13:17:54.960Z",
+      "accessTime": "2019-04-12T04:20:05.344Z",
+      "changeTime": "2019-04-12T04:20:05.344Z",
+      "birthTime": "2019-04-12T04:20:05.344Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/CourseSource",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/CourseSource",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410429,
+      "blocks": 8,
+      "atimeMs": 1555042805344.438,
+      "mtimeMs": 1552828674959.856,
+      "ctimeMs": 1555042805344.439,
+      "birthtimeMs": 1555042805344.439,
+      "atime": "2019-04-12T04:20:05.344Z",
+      "mtime": "2019-03-17T13:17:54.960Z",
+      "ctime": "2019-04-12T04:20:05.344Z",
+      "birthtime": "2019-04-12T04:20:05.344Z"
+    },
+    "50058add-6529-5d13-9273-fb6b1b0ecd8c": {
+      "id": "50058add-6529-5d13-9273-fb6b1b0ecd8c",
+      "children": [
+        "de52d88c-cbeb-5506-965a-315ba496cc4b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a57c1dd4548d09968837d32e0002926d",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/CrowdDJ/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CrowdDJ/index.md",
+      "relativePath": "projects/CrowdDJ/index.md",
+      "extension": "md",
+      "size": 445,
+      "prettySize": "445 B",
+      "modifiedTime": "2019-03-17T13:17:54.960Z",
+      "accessTime": "2019-04-12T04:20:05.348Z",
+      "changeTime": "2019-04-12T04:20:05.348Z",
+      "birthTime": "2019-04-12T04:20:05.348Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/CrowdDJ",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/CrowdDJ",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410431,
+      "blocks": 8,
+      "atimeMs": 1555042805348.438,
+      "mtimeMs": 1552828674959.856,
+      "ctimeMs": 1555042805348.4382,
+      "birthtimeMs": 1555042805348.4382,
+      "atime": "2019-04-12T04:20:05.348Z",
+      "mtime": "2019-03-17T13:17:54.960Z",
+      "ctime": "2019-04-12T04:20:05.348Z",
+      "birthtime": "2019-04-12T04:20:05.348Z"
+    },
+    "f268117e-23aa-5ccc-8056-551228cbd5e2": {
+      "id": "f268117e-23aa-5ccc-8056-551228cbd5e2",
+      "children": [
+        "2f11b9ee-9391-53db-aff5-94229f9e1f16"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9780490b6abed283cb3599072326b744",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/projects/Fontipsums/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Fontipsums/index.md",
+      "relativePath": "projects/Fontipsums/index.md",
+      "extension": "md",
+      "size": 332,
+      "prettySize": "332 B",
+      "modifiedTime": "2019-03-17T13:17:54.961Z",
+      "accessTime": "2019-04-12T04:20:05.352Z",
+      "changeTime": "2019-04-12T04:20:05.352Z",
+      "birthTime": "2019-04-12T04:20:05.352Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/Fontipsums",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "projects/Fontipsums",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410433,
+      "blocks": 8,
+      "atimeMs": 1555042805352.437,
+      "mtimeMs": 1552828674960.847,
+      "ctimeMs": 1555042805352.4375,
+      "birthtimeMs": 1555042805352.4375,
+      "atime": "2019-04-12T04:20:05.352Z",
+      "mtime": "2019-03-17T13:17:54.961Z",
+      "ctime": "2019-04-12T04:20:05.352Z",
+      "birthtime": "2019-04-12T04:20:05.352Z"
+    },
+    "3e88c765-5ad4-547b-a768-06807e655fa8": {
+      "id": "3e88c765-5ad4-547b-a768-06807e655fa8",
+      "children": [
+        "d1fba32e-1adf-561c-8f6b-7bdfdac12589"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2aa02184544838608ef8e99db396234d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/about/me.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/about/me.jpg",
+      "relativePath": "about/me.jpg",
+      "extension": "jpg",
+      "size": 113987,
+      "prettySize": "114 kB",
+      "modifiedTime": "2019-03-17T13:17:54.905Z",
+      "accessTime": "2019-04-12T04:20:05.009Z",
+      "changeTime": "2019-04-12T04:20:05.024Z",
+      "birthTime": "2019-04-12T04:20:05.024Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/about",
+      "base": "me.jpg",
+      "ext": ".jpg",
+      "name": "me",
+      "relativeDirectory": "about",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410391,
+      "blocks": 224,
+      "atimeMs": 1555042805008.501,
+      "mtimeMs": 1552828674904.996,
+      "ctimeMs": 1555042805024.4985,
+      "birthtimeMs": 1555042805024.4985,
+      "atime": "2019-04-12T04:20:05.009Z",
+      "mtime": "2019-03-17T13:17:54.905Z",
+      "ctime": "2019-04-12T04:20:05.024Z",
+      "birthtime": "2019-04-12T04:20:05.024Z"
+    },
+    "d1fba32e-1adf-561c-8f6b-7bdfdac12589": {
+      "id": "d1fba32e-1adf-561c-8f6b-7bdfdac12589",
+      "children": [],
+      "parent": "3e88c765-5ad4-547b-a768-06807e655fa8",
+      "internal": {
+        "contentDigest": "2aa02184544838608ef8e99db396234d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "47353728-ba66-563c-91ea-b6b8ecaeae8c": {
+      "id": "47353728-ba66-563c-91ea-b6b8ecaeae8c",
+      "children": [
+        "8271cdf2-a743-5852-ae68-8a790fef0b32"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ca64377ae558b3b06095db1ece70c57b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/featured/HalcyonTheme/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme/index.md",
+      "relativePath": "featured/HalcyonTheme/index.md",
+      "extension": "md",
+      "size": 655,
+      "prettySize": "655 B",
+      "modifiedTime": "2019-03-17T13:17:54.920Z",
+      "accessTime": "2019-04-12T04:20:05.180Z",
+      "changeTime": "2019-04-12T04:20:05.180Z",
+      "birthTime": "2019-04-12T04:20:05.180Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "featured/HalcyonTheme",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410398,
+      "blocks": 8,
+      "atimeMs": 1555042805180.469,
+      "mtimeMs": 1552828674919.956,
+      "ctimeMs": 1555042805180.4695,
+      "birthtimeMs": 1555042805180.4695,
+      "atime": "2019-04-12T04:20:05.180Z",
+      "mtime": "2019-03-17T13:17:54.920Z",
+      "ctime": "2019-04-12T04:20:05.180Z",
+      "birthtime": "2019-04-12T04:20:05.180Z"
+    },
+    "236a40db-5908-5ad9-808a-14d257b088fc": {
+      "id": "236a40db-5908-5ad9-808a-14d257b088fc",
+      "children": [
+        "acda1285-628b-580d-8f33-7828c4ae3238"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b430827d74bc5f2c432aaf0765588c7c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/content/contact/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/contact/index.md",
+      "relativePath": "contact/index.md",
+      "extension": "md",
+      "size": 215,
+      "prettySize": "215 B",
+      "modifiedTime": "2019-03-17T13:17:54.905Z",
+      "accessTime": "2019-04-12T04:20:05.028Z",
+      "changeTime": "2019-04-12T04:20:05.028Z",
+      "birthTime": "2019-04-12T04:20:05.028Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/contact",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "contact",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410393,
+      "blocks": 8,
+      "atimeMs": 1555042805028.497,
+      "mtimeMs": 1552828674904.996,
+      "ctimeMs": 1555042805028.4978,
+      "birthtimeMs": 1555042805028.4978,
+      "atime": "2019-04-12T04:20:05.028Z",
+      "mtime": "2019-03-17T13:17:54.905Z",
+      "ctime": "2019-04-12T04:20:05.028Z",
+      "birthtime": "2019-04-12T04:20:05.028Z"
+    },
+    "9fc2434b-5d30-5f51-ba11-7b229ea71bf8": {
+      "id": "9fc2434b-5d30-5f51-ba11-7b229ea71bf8",
+      "children": [
+        "e59f7cad-0afc-5ba3-be21-7e3d386d5223"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2ce4c5071945a27410f82b4f75346f34",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/featured/SpotifyProfile/demo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile/demo.png",
+      "relativePath": "featured/SpotifyProfile/demo.png",
+      "extension": "png",
+      "size": 148511,
+      "prettySize": "149 kB",
+      "modifiedTime": "2019-03-17T13:17:54.945Z",
+      "accessTime": "2019-04-12T04:20:05.260Z",
+      "changeTime": "2019-04-12T04:20:05.276Z",
+      "birthTime": "2019-04-12T04:20:05.276Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile",
+      "base": "demo.png",
+      "ext": ".png",
+      "name": "demo",
+      "relativeDirectory": "featured/SpotifyProfile",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410403,
+      "blocks": 296,
+      "atimeMs": 1555042805260.454,
+      "mtimeMs": 1552828674944.93,
+      "ctimeMs": 1555042805276.4517,
+      "birthtimeMs": 1555042805276.4517,
+      "atime": "2019-04-12T04:20:05.260Z",
+      "mtime": "2019-03-17T13:17:54.945Z",
+      "ctime": "2019-04-12T04:20:05.276Z",
+      "birthtime": "2019-04-12T04:20:05.276Z"
+    },
+    "e59f7cad-0afc-5ba3-be21-7e3d386d5223": {
+      "id": "e59f7cad-0afc-5ba3-be21-7e3d386d5223",
+      "children": [],
+      "parent": "9fc2434b-5d30-5f51-ba11-7b229ea71bf8",
+      "internal": {
+        "contentDigest": "2ce4c5071945a27410f82b4f75346f34",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "682cba6c-d6a7-520d-bae5-3fc2cf845bf9": {
+      "id": "682cba6c-d6a7-520d-bae5-3fc2cf845bf9",
+      "children": [],
+      "parent": "dfaa07d0-c16a-5dc2-9c81-fe6f89766d58",
+      "internal": {
+        "content": "\r\nPinterest, but just the pictures.\r\n\r\nMy main motivation for building this was so I could cycle through pins on my boards with the left and right arrow keys and hide the other distracting features that I don't usually use on Pinterest.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5469d1b834a583fe1023907e24506a1e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Pin Simple",
+        "date": "2",
+        "cover": "./pin-simple.png",
+        "github": "https://github.com/bchiang7/pin-simple",
+        "external": "https://pin-simple.herokuapp.com/",
+        "tech": [
+          "Vue",
+          "Vue Router",
+          "Express",
+          "Pinterest API"
+        ],
+        "show": "false"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nPinterest, but just the pictures.\r\n\r\nMy main motivation for building this was so I could cycle through pins on my boards with the left and right arrow keys and hide the other distracting features that I don't usually use on Pinterest.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple/index.md"
+    },
+    "7f6aabce-222d-52e6-b5dd-96594d7a3922": {
+      "id": "7f6aabce-222d-52e6-b5dd-96594d7a3922",
+      "children": [],
+      "parent": "425711e5-944c-5c4f-9a1f-dc1a39fef776",
+      "internal": {
+        "content": "\r\nI'm a software engineer based in Bandung specializing in building (and occasionally backend) and IoT exceptional, high-quality websites and applications.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "af4d6702bdf9666a95bd0c95cc2f1182",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hi, my name is",
+        "name": "Thirafi Wian",
+        "subtitle": "I build things for the web.",
+        "contactText": "Get In Touch"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nI'm a software engineer based in Bandung specializing in building (and occasionally backend) and IoT exceptional, high-quality websites and applications.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/hero/index.md"
+    },
+    "b8079b3c-660b-5428-8acb-baf637a58c83": {
+      "id": "b8079b3c-660b-5428-8acb-baf637a58c83",
+      "children": [
+        "61c89984-4c17-55de-b8d8-688d815e7a0a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4660e57f6dc66a2170ee3d38632ecddf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/featured/HalcyonTheme/halcyon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme/halcyon.png",
+      "relativePath": "featured/HalcyonTheme/halcyon.png",
+      "extension": "png",
+      "size": 276248,
+      "prettySize": "276 kB",
+      "modifiedTime": "2019-03-17T13:17:54.920Z",
+      "accessTime": "2019-04-12T04:20:05.160Z",
+      "changeTime": "2019-04-12T04:20:05.180Z",
+      "birthTime": "2019-04-12T04:20:05.180Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme",
+      "base": "halcyon.png",
+      "ext": ".png",
+      "name": "halcyon",
+      "relativeDirectory": "featured/HalcyonTheme",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410397,
+      "blocks": 544,
+      "atimeMs": 1555042805160.473,
+      "mtimeMs": 1552828674919.956,
+      "ctimeMs": 1555042805180.4695,
+      "birthtimeMs": 1555042805180.4695,
+      "atime": "2019-04-12T04:20:05.160Z",
+      "mtime": "2019-03-17T13:17:54.920Z",
+      "ctime": "2019-04-12T04:20:05.180Z",
+      "birthtime": "2019-04-12T04:20:05.180Z"
+    },
+    "f6e04f5c-1f6f-5b57-a1ad-3b166ceb675e": {
+      "id": "f6e04f5c-1f6f-5b57-a1ad-3b166ceb675e",
+      "children": [],
+      "parent": "eb23624f-82e8-583d-94d6-67f34c1b6d28",
+      "internal": {
+        "content": "\r\nA web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d6e0c369d9a48d954896f45efe6b3d55",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Spotify Profile",
+        "date": "3",
+        "cover": "./demo.png",
+        "github": "https://github.com/bchiang7/spotify-profile",
+        "external": "https://spotify-profile.herokuapp.com/",
+        "tech": [
+          "React",
+          "Express",
+          "Reach Router",
+          "Styled Components"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nA web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/SpotifyProfile/index.md"
+    },
+    "12423c41-939f-5334-829d-b99279684e0d": {
+      "id": "12423c41-939f-5334-829d-b99279684e0d",
+      "children": [],
+      "parent": "eefecd99-7fb6-5aac-9139-969736cc1a54",
+      "internal": {
+        "content": "\r\n- Developed and shipped highly interactive web applications for Apple Music using Ember.js\r\n- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs\r\n- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser\r\n- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2d778fff6b099420b69af56ceb80286f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "UI Engineer Co-op",
+        "date": "2017-12-21",
+        "company": "Apple",
+        "location": "Cupertino, CA",
+        "range": "July - Dec 2017",
+        "url": "https://www.apple.com/music/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Developed and shipped highly interactive web applications for Apple Music using Ember.js\r\n- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs\r\n- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser\r\n- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Apple/index.md"
+    },
+    "8606712f-f8d0-56b5-801d-3b702708cf7d": {
+      "id": "8606712f-f8d0-56b5-801d-3b702708cf7d",
+      "children": [],
+      "parent": "10ead772-4782-5071-bd53-944b492fcae8",
+      "internal": {
+        "content": "\r\n- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery\r\n- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness\r\n- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2439300763bc22d8f833f5ad06bbeb19",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Creative Technologist Co-op",
+        "date": "2015-12-21",
+        "company": "MullenLowe",
+        "location": "Boston, MA",
+        "range": "July - Dec 2015",
+        "url": "https://www.upstatement.com/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery\r\n- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness\r\n- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Mullen/index.md"
+    },
+    "071f6fa0-1597-5072-a2eb-840596083702": {
+      "id": "071f6fa0-1597-5072-a2eb-840596083702",
+      "children": [],
+      "parent": "bd81a3f1-1639-5147-86fd-eac7b779b06d",
+      "internal": {
+        "content": "\r\n- Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern\r\n- Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2f7f1617407306cb5abe76805fcc8635",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Studio Developer",
+        "date": "2017-04-01",
+        "company": "Scout",
+        "location": "Northeastern University",
+        "range": "Jan - June 2017",
+        "url": "https://web.northeastern.edu/scout/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern\r\n- Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2017/index.md"
+    },
+    "1e1e9d9b-5bf5-59ab-ac46-0b66f1cfd227": {
+      "id": "1e1e9d9b-5bf5-59ab-ac46-0b66f1cfd227",
+      "children": [],
+      "parent": "1eae2e8d-7861-5750-95b6-4a718bc4166d",
+      "internal": {
+        "content": "\r\n- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern\r\n- Helped solidify a brand direction for blistabloc that spans both packaging and web\r\n- Interfaced with clients on a weekly basis, providing technological expertise\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "44f60a03796fdc059a8a96f6cfcb308a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Studio Developer",
+        "date": "2018-04-01",
+        "company": "Scout",
+        "location": "Northeastern University",
+        "range": "Jan - April 2018",
+        "url": "https://web.northeastern.edu/scout/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern\r\n- Helped solidify a brand direction for blistabloc that spans both packaging and web\r\n- Interfaced with clients on a weekly basis, providing technological expertise\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Scout2018/index.md"
+    },
+    "1506f6ba-bfbf-580c-bb70-38b47f649334": {
+      "id": "1506f6ba-bfbf-580c-bb70-38b47f649334",
+      "children": [],
+      "parent": "7efe155d-9d56-5397-b2d9-512bc4cab8bb",
+      "internal": {
+        "content": "\r\n- Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS\r\n- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station\r\n- Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "59d71589c3e679c9e2183d19a1dcfed3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Software Engineer Co-op",
+        "date": "2016-12-21",
+        "company": "Starry",
+        "location": "Boston, MA",
+        "range": "July - Dec 2016",
+        "url": "https://www.apple.com/music/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS\r\n- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station\r\n- Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Starry/index.md"
+    },
+    "a0830f55-029c-5746-934e-efb98c1843ab": {
+      "id": "a0830f55-029c-5746-934e-efb98c1843ab",
+      "children": [],
+      "parent": "950da5c0-e4db-5877-aa2b-1723934ae8be",
+      "internal": {
+        "content": "\r\n- Write modern, performant, maintainable code for a diverse array of client and internal projects\r\n- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netlify\r\n- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1f6491e93e4eccf50b1587a7d1fd909f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Engineer",
+        "date": "2018-05-14",
+        "company": "Upstatement",
+        "location": "Boston, MA",
+        "range": "May 2018 - Present",
+        "url": "https://www.upstatement.com/"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n- Write modern, performant, maintainable code for a diverse array of client and internal projects\r\n- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netlify\r\n- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/jobs/Upstatement/index.md"
+    },
+    "f71481c2-18a9-5d4e-abb3-4a93e4ce38ee": {
+      "id": "f71481c2-18a9-5d4e-abb3-4a93e4ce38ee",
+      "children": [],
+      "parent": "9d82511a-a701-5d2f-99a2-47f72af2a0ef",
+      "internal": {
+        "content": "\r\nFacebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "33d6788bef5234359ca79f6bfba5d186",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Apple Music Facebook Messenger Integration",
+        "date": "2017-11-01",
+        "image": "",
+        "github": "",
+        "external": "",
+        "tech": [
+          "Ember",
+          "JS",
+          "SCSS"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nFacebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AMFM/index.md"
+    },
+    "b5f5a4a1-bbdd-560a-8164-8651557548d2": {
+      "id": "b5f5a4a1-bbdd-560a-8164-8651557548d2",
+      "children": [],
+      "parent": "07e0a1cd-ac89-5580-9ce7-430430eff6b4",
+      "internal": {
+        "content": "\r\nEmbeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1363b8a20d55e36cacc21ecb5e38af6a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Apple Music Embeddable Web Player Widget",
+        "date": "2017-12-01",
+        "image": "",
+        "github": "",
+        "external": "https://tools.applemusic.com/en-us",
+        "tech": [
+          "MusicKit.js",
+          "JS",
+          "SCSS"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nEmbeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/AppleMusicEmbedPlayer/index.md"
+    },
+    "60907695-a645-58fa-8ddb-379a33267bfa": {
+      "id": "60907695-a645-58fa-8ddb-379a33267bfa",
+      "children": [],
+      "parent": "6c29cb06-b254-5cb4-ae04-f6a9f8371021",
+      "internal": {
+        "content": "\r\nCustom wordpress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "fe2da8a7388aad07c0cd97260a3ee33f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "blistabloc",
+        "date": "2018-05-01",
+        "image": "",
+        "github": "",
+        "external": "https://blistabloc.com/",
+        "tech": [
+          "Wordpress",
+          "Timber",
+          "WooCommerce",
+          "SCSS",
+          "JS"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nCustom wordpress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc/index.md"
+    },
+    "b1f8fb8b-b774-55b2-8eab-d247a319c5c6": {
+      "id": "b1f8fb8b-b774-55b2-8eab-d247a319c5c6",
+      "children": [],
+      "parent": "58f38d33-a785-56ed-882b-ef4214e940f1",
+      "internal": {
+        "content": "\r\nWeb application built on the MEAN (MongoDB, Express, Angular, Node) stack with the intention of providing Northeastern students a better experience browsing the courses offered at Northeastern.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "00c0f05dfa1dd69d01739225607332ac",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "CourseSource",
+        "date": "2016-04-01",
+        "image": "",
+        "github": "https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project",
+        "external": "",
+        "tech": [
+          "Angular",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nWeb application built on the MEAN (MongoDB, Express, Angular, Node) stack with the intention of providing Northeastern students a better experience browsing the courses offered at Northeastern.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CourseSource/index.md"
+    },
+    "de52d88c-cbeb-5506-965a-315ba496cc4b": {
+      "id": "de52d88c-cbeb-5506-965a-315ba496cc4b",
+      "children": [],
+      "parent": "50058add-6529-5d13-9273-fb6b1b0ecd8c",
+      "internal": {
+        "content": "\r\nWeb app that allows people to crowdsource a party's music queue. Allows people to request songs, upvote songs, rate songs, etc. so the DJ can see how the crowd is feeling and queue songs accordingly. Won Best UI/UX Design at Hackbeanpot 2017.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3f5feb3839eb1203e3ee819ab5e583f3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Crowd DJ",
+        "date": "2017-03-01",
+        "image": "",
+        "github": "https://github.com/crowddj/crowddj-react",
+        "external": "",
+        "tech": [
+          "React",
+          "Sass",
+          "Firebase",
+          "Spotify API"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nWeb app that allows people to crowdsource a party's music queue. Allows people to request songs, upvote songs, rate songs, etc. so the DJ can see how the crowd is feeling and queue songs accordingly. Won Best UI/UX Design at Hackbeanpot 2017.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/CrowdDJ/index.md"
+    },
+    "2f11b9ee-9391-53db-aff5-94229f9e1f16": {
+      "id": "2f11b9ee-9391-53db-aff5-94229f9e1f16",
+      "children": [],
+      "parent": "f268117e-23aa-5ccc-8056-551228cbd5e2",
+      "internal": {
+        "content": "\r\nSimple website to display some of my favorite font pairings combined with some fun lorem ipsum variations found on the web.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "73dcea94f89afbaa936d3f1ae1bbe5ea",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Fontipsums",
+        "date": "2016-01-01",
+        "image": "",
+        "github": "https://github.com/bchiang7/fontipsums/",
+        "external": "http://bchiang7.github.io/fontipsums/",
+        "tech": [
+          "HTML",
+          "SCSS"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nSimple website to display some of my favorite font pairings combined with some fun lorem ipsum variations found on the web.\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Fontipsums/index.md"
+    },
+    "61c89984-4c17-55de-b8d8-688d815e7a0a": {
+      "id": "61c89984-4c17-55de-b8d8-688d815e7a0a",
+      "children": [],
+      "parent": "b8079b3c-660b-5428-8acb-baf637a58c83",
+      "internal": {
+        "contentDigest": "4660e57f6dc66a2170ee3d38632ecddf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8271cdf2-a743-5852-ae68-8a790fef0b32": {
+      "id": "8271cdf2-a743-5852-ae68-8a790fef0b32",
+      "children": [],
+      "parent": "47353728-ba66-563c-91ea-b6b8ecaeae8c",
+      "internal": {
+        "content": "\r\nA minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "21839a1ceb171b056786fcc93a3c6197",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Halcyon Theme",
+        "date": "1",
+        "cover": "./halcyon.png",
+        "github": "https://github.com/bchiang7/halcyon-site",
+        "external": "https://halcyon-theme.netlify.com/",
+        "tech": [
+          "VS Code",
+          "Sublime Text",
+          "Atom",
+          "iTerm2",
+          "Hyper"
+        ],
+        "show": "true"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nA minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme/index.md"
+    },
+    "acda1285-628b-580d-8f33-7828c4ae3238": {
+      "id": "acda1285-628b-580d-8f33-7828c4ae3238",
+      "children": [],
+      "parent": "236a40db-5908-5ad9-808a-14d257b088fc",
+      "internal": {
+        "content": "\r\nAlthough I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "42441bc59b610d283fb5abd954c3721a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Get In Touch"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nAlthough I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/contact/index.md"
+    },
+    "871a0114-4a15-559e-a6f0-fab089e8af0e": {
+      "id": "871a0114-4a15-559e-a6f0-fab089e8af0e",
+      "children": [
+        "cb67c887-c09e-54c8-97a4-b95fa8ea76aa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d0f8ae5e695dd35cb5c1bfbe3eecbd44",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/projects/Blistabloc/blistabloc.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc/blistabloc.png",
+      "relativePath": "projects/Blistabloc/blistabloc.png",
+      "extension": "png",
+      "size": 376949,
+      "prettySize": "377 kB",
+      "modifiedTime": "2019-03-17T13:17:54.958Z",
+      "accessTime": "2019-04-12T04:20:05.320Z",
+      "changeTime": "2019-04-12T04:20:05.340Z",
+      "birthTime": "2019-04-12T04:20:05.340Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/projects/Blistabloc",
+      "base": "blistabloc.png",
+      "ext": ".png",
+      "name": "blistabloc",
+      "relativeDirectory": "projects/Blistabloc",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410426,
+      "blocks": 744,
+      "atimeMs": 1555042805320.443,
+      "mtimeMs": 1552828674957.854,
+      "ctimeMs": 1555042805340.4397,
+      "birthtimeMs": 1555042805340.4397,
+      "atime": "2019-04-12T04:20:05.320Z",
+      "mtime": "2019-03-17T13:17:54.958Z",
+      "ctime": "2019-04-12T04:20:05.340Z",
+      "birthtime": "2019-04-12T04:20:05.340Z"
+    },
+    "cb67c887-c09e-54c8-97a4-b95fa8ea76aa": {
+      "id": "cb67c887-c09e-54c8-97a4-b95fa8ea76aa",
+      "children": [],
+      "parent": "871a0114-4a15-559e-a6f0-fab089e8af0e",
+      "internal": {
+        "contentDigest": "d0f8ae5e695dd35cb5c1bfbe3eecbd44",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "025df800-7632-5fa3-ac52-3a42b88bbe14": {
+      "id": "025df800-7632-5fa3-ac52-3a42b88bbe14",
+      "children": [
+        "16518cdb-3fd0-51b1-ab2b-559b4db3ce20"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c4b7276c6fd789e4c189ab2fa9c01348",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/featured/HalcyonTheme/demo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme/demo.png",
+      "relativePath": "featured/HalcyonTheme/demo.png",
+      "extension": "png",
+      "size": 972455,
+      "prettySize": "972 kB",
+      "modifiedTime": "2019-03-17T13:17:54.914Z",
+      "accessTime": "2019-04-12T04:20:05.036Z",
+      "changeTime": "2019-04-12T04:20:05.160Z",
+      "birthTime": "2019-04-12T04:20:05.160Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/HalcyonTheme",
+      "base": "demo.png",
+      "ext": ".png",
+      "name": "demo",
+      "relativeDirectory": "featured/HalcyonTheme",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410396,
+      "blocks": 1904,
+      "atimeMs": 1555042805036.496,
+      "mtimeMs": 1552828674913.971,
+      "ctimeMs": 1555042805160.4731,
+      "birthtimeMs": 1555042805160.4731,
+      "atime": "2019-04-12T04:20:05.036Z",
+      "mtime": "2019-03-17T13:17:54.914Z",
+      "ctime": "2019-04-12T04:20:05.160Z",
+      "birthtime": "2019-04-12T04:20:05.160Z"
+    },
+    "16518cdb-3fd0-51b1-ab2b-559b4db3ce20": {
+      "id": "16518cdb-3fd0-51b1-ab2b-559b4db3ce20",
+      "children": [],
+      "parent": "025df800-7632-5fa3-ac52-3a42b88bbe14",
+      "internal": {
+        "contentDigest": "c4b7276c6fd789e4c189ab2fa9c01348",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0ce947a7-feef-5278-b6b1-f0ed84cf0d07": {
+      "id": "0ce947a7-feef-5278-b6b1-f0ed84cf0d07",
+      "children": [
+        "82d15bdf-dbf6-5b03-af0a-e4b56040f522"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "856a49407ef944113dcbed050f141879",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/content/featured/PinSimple/pin-simple.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple/pin-simple.png",
+      "relativePath": "featured/PinSimple/pin-simple.png",
+      "extension": "png",
+      "size": 3354232,
+      "prettySize": "3.35 MB",
+      "modifiedTime": "2019-03-17T13:17:54.943Z",
+      "accessTime": "2019-04-12T04:20:05.184Z",
+      "changeTime": "2019-04-12T04:20:05.252Z",
+      "birthTime": "2019-04-12T04:20:05.252Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/featured/PinSimple",
+      "base": "pin-simple.png",
+      "ext": ".png",
+      "name": "pin-simple",
+      "relativeDirectory": "featured/PinSimple",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 410401,
+      "blocks": 6552,
+      "atimeMs": 1555042805184.468,
+      "mtimeMs": 1552828674942.896,
+      "ctimeMs": 1555042805252.456,
+      "birthtimeMs": 1555042805252.456,
+      "atime": "2019-04-12T04:20:05.184Z",
+      "mtime": "2019-03-17T13:17:54.943Z",
+      "ctime": "2019-04-12T04:20:05.252Z",
+      "birthtime": "2019-04-12T04:20:05.252Z"
+    },
+    "82d15bdf-dbf6-5b03-af0a-e4b56040f522": {
+      "id": "82d15bdf-dbf6-5b03-af0a-e4b56040f522",
+      "children": [],
+      "parent": "0ce947a7-feef-5278-b6b1-f0ed84cf0d07",
+      "internal": {
+        "contentDigest": "856a49407ef944113dcbed050f141879",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e3987d94-ebbb-5974-9b41-938fd343d4dc": {
+      "id": "e3987d94-ebbb-5974-9b41-938fd343d4dc",
+      "children": [],
+      "parent": "07cc959a-c072-534a-b3b5-962f725002e2",
+      "internal": {
+        "content": "\r\nHello! I'm Thirafi Wian, a software engineer based in Bandung, who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, create system for Internet of Things and modern backends.\r\n\r\n\r\nHere's a few things I'm experienced with:\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ba377e010f8eb0c5192f62c7e3d22e41",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "About Me",
+        "avatar": "./me2.jpg",
+        "skills": [
+          "JavaScript",
+          "TypeScript",
+          "UAV",
+          "Python",
+          "C",
+          "Arduino",
+          "Node.js",
+          "Express"
+        ]
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\nHello! I'm Thirafi Wian, a software engineer based in Bandung, who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, create system for Internet of Things and modern backends.\r\n\r\n\r\nHere's a few things I'm experienced with:\r\n",
+      "fileAbsolutePath": "/home/thirafiwian/Documents/anot2/src/content/about/index.md"
+    },
+    "4581d0e4-5f97-580a-93e3-239198ee15fa": {
+      "id": "4581d0e4-5f97-580a-93e3-239198ee15fa",
+      "children": [
+        "13826aeb-9711-5edd-96a8-04f5d8b67200"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b6af5d9be71f8e3f68c37d7b8144dc8f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/content/about/me2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "content",
+      "absolutePath": "/home/thirafiwian/Documents/anot2/src/content/about/me2.jpg",
+      "relativePath": "about/me2.jpg",
+      "extension": "jpg",
+      "size": 1534063,
+      "prettySize": "1.53 MB",
+      "modifiedTime": "2018-10-31T06:02:44.000Z",
+      "accessTime": "2019-04-12T09:22:32.491Z",
+      "changeTime": "2019-04-12T09:22:32.467Z",
+      "birthTime": "2019-04-12T09:22:32.467Z",
+      "root": "/",
+      "dir": "/home/thirafiwian/Documents/anot2/src/content/about",
+      "base": "me2.jpg",
+      "ext": ".jpg",
+      "name": "me2",
+      "relativeDirectory": "about",
+      "dev": 2057,
+      "mode": 33279,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 396121,
+      "blocks": 3000,
+      "atimeMs": 1555060952491.1946,
+      "mtimeMs": 1540965764000,
+      "ctimeMs": 1555060952467.1936,
+      "birthtimeMs": 1555060952467.1936,
+      "atime": "2019-04-12T09:22:32.491Z",
+      "mtime": "2018-10-31T06:02:44.000Z",
+      "ctime": "2019-04-12T09:22:32.467Z",
+      "birthtime": "2019-04-12T09:22:32.467Z"
+    },
+    "13826aeb-9711-5edd-96a8-04f5d8b67200": {
+      "id": "13826aeb-9711-5edd-96a8-04f5d8b67200",
+      "children": [],
+      "parent": "4581d0e4-5f97-580a-93e3-239198ee15fa",
+      "internal": {
+        "contentDigest": "b6af5d9be71f8e3f68c37d7b8144dc8f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/thirafiwian/Documents/anot2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+      "pluginCreatorId": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9cf2d95ca44eac96527a3fcb984986a8",
+        "description": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/thirafiwian/Documents/anot2/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+      "pluginCreatorId": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cf811103e87ef5d738a6f80575e466d5",
+        "description": "e01465c6-5b38-52db-85a7-30e10b849fa3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/thirafiwian/Documents/anot2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "37abae6bd1dbac7f394e8646b8f7d5e5",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "22e22758d49ca673a72f32134b0412c3"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js"
+      ],
+      "3e88c765-5ad4-547b-a768-06807e655fa8": [
+        "/"
+      ],
+      "9fc2434b-5d30-5f51-ba11-7b229ea71bf8": [
+        "/"
+      ],
+      "0ce947a7-feef-5278-b6b1-f0ed84cf0d07": [
+        "/"
+      ],
+      "b8079b3c-660b-5428-8acb-baf637a58c83": [
+        "/"
+      ],
+      "d1fba32e-1adf-561c-8f6b-7bdfdac12589": [
+        "/"
+      ],
+      "e59f7cad-0afc-5ba3-be21-7e3d386d5223": [
+        "/"
+      ],
+      "82d15bdf-dbf6-5b03-af0a-e4b56040f522": [
+        "/"
+      ],
+      "61c89984-4c17-55de-b8d8-688d815e7a0a": [
+        "/"
+      ],
+      "4581d0e4-5f97-580a-93e3-239198ee15fa": [
+        "/"
+      ],
+      "13826aeb-9711-5edd-96a8-04f5d8b67200": [
+        "/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 2241923043,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "534/path---index-6a9-Z5t1OPJpdoZZSY9rUdQXCXs3kM8"
+  },
+  "components": {
+    "/home/thirafiwian/Documents/anot2/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/thirafiwian/Documents/anot2/.cache/dev-404-page.js"
+    },
+    "/home/thirafiwian/Documents/anot2/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/pages/404.js"
+    },
+    "/home/thirafiwian/Documents/anot2/src/pages/index.js": {
+      "query": "query IndexQuery {\n  hero: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/hero/\"}}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          name\n          subtitle\n          contactText\n        }\n        html\n      }\n    }\n  }\n  about: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/about/\"}}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          avatar {\n            childImageSharp {\n              fluid(maxWidth: 700, quality: 90, traceSVG: {color: \"#64ffda\"}) {\n                ...GatsbyImageSharpFluid_withWebp_tracedSVG\n              }\n            }\n          }\n          skills\n        }\n        html\n      }\n    }\n  }\n  jobs: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/jobs/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          company\n          location\n          range\n          url\n        }\n        html\n      }\n    }\n  }\n  featured: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/featured/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          cover {\n            childImageSharp {\n              fluid(maxWidth: 700, quality: 90, traceSVG: {color: \"#64ffda\"}) {\n                ...GatsbyImageSharpFluid_withWebp_tracedSVG\n              }\n            }\n          }\n          tech\n          github\n          external\n          show\n        }\n        html\n      }\n    }\n  }\n  projects: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/projects/\"}}, sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          image\n          tech\n          github\n          external\n          show\n        }\n        html\n      }\n    }\n  }\n  contact: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/contact/\"}}) {\n    edges {\n      node {\n        frontmatter {\n          title\n        }\n        html\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "LayoutQuery",
+      "componentPath": "/home/thirafiwian/Documents/anot2/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query LayoutQuery {\n  site {\n    siteMetadata {\n      title\n      siteUrl\n      description\n    }\n  }\n}\n",
+      "hash": 2241923043
+    }
+  }
+}
